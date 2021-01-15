@@ -8,6 +8,11 @@ function setup() {
   wall = createSprite(1200,400,30,500)
   speed = random(223,331)
   weight = random(30,53)
+  
+  
+   bullet = createSprite(50,200,50,30)
+  bullet.velocityX = speed;
+    bullet.shapeColor=color(0);
 }
 
 function draw() {
